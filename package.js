@@ -5,13 +5,13 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery', 'client');
   api.add_files([
-  	'lib/excanvas.js',
-  	'lib/excanvas.min.js',
+  	'lib/js/excanvas.js',
+  	'lib/js/excanvas.min.js',
+  	'lib/js/jquery.flot.js',
   	'lib/jquery.colorhelpers.js',
   	'lib/jquery.flot.crosshair.js',
   	'lib/jquery.flot.fillbetween.js',
   	'lib/jquery.flot.image.js',
-  	'lib/jquery.flot.js',
   	'lib/jquery.flot.navigate.js',
   	'lib/jquery.flot.pie.js',
   	'lib/jquery.flot.resize.js',
