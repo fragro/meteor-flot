@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "pubreader - A reader designed to allow increase readability of journal and conference papers produced by NLM"
+  summary: "flot - Attractive JavaScript plotting for jQuery"
 });
 
 Package.on_use(function (api) {
